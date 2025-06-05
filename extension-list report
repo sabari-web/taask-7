@@ -1,0 +1,109 @@
+Task 7: Identify and Remove Suspicious Browser Extensions
+🎯 Objective:
+Evaluate the security posture of browser extensions, remove potentially harmful or unnecessary ones, and improve overall browser security.
+
+🖥️ Tools Used:
+Browser: Mozilla Firefox
+
+Extensions Reviewed:
+
+FoxyProxy
+
+Hack-Tools
+
+Wappalyzer
+
+Wayback Machine
+
+🔍 Steps Taken:
+Opened about:addons in Firefox to manage extensions.
+
+Reviewed installed extensions and their permissions.
+
+Researched each extension’s purpose, reputation, and security implications.
+
+Identified extensions not used or with high-risk permissions.
+
+Removed unnecessary or potentially risky extensions.
+
+🔎 Extension Analysis
+⚙️ 1. FoxyProxy
+Status: ✅ Kept
+
+Reason: Trusted, open-source proxy manager with expected permissions for its functionality. Used by advanced users.
+
+⚙️ 2. Hack-Tools
+Status: ❌ Removed
+
+Reason: Red-team/pentesting tool with high privileges. Not in active use. Removed to reduce risk.
+
+⚙️ 3. Wappalyzer
+🔗 Homepage: https://www.wappalyzer.com/
+🧑 Author: Wappalyzer
+📦 Version: 6.10.83 (Last updated: May 30, 2025)
+📜 Permissions:
+
+Run in private windows
+
+Run on restricted sites
+
+Access all browsing activity on visited websites
+
+⚠️ Security Evaluation:
+
+Purpose: Detects technologies used on websites (CMS, server type, frameworks, etc.).
+
+Reputation: Highly popular in web development and cybersecurity communities.
+
+Concerns: Needs access to browsing activity to analyze sites, but no evidence of misuse.
+
+Verdict: 🟢 Safe, with expected permissions for its functionality.
+
+Decision: ✅ Kept
+
+⚙️ 4. Wayback Machine
+🔗 Homepage: https://archive.org/
+🧑 Author: Internet Archive
+📦 Version: 3.2 
+📜 Permissions:
+
+Run in private windows
+
+Run on restricted sites
+
+Access pages visited and archived
+
+⚠️ Security Evaluation:
+
+Purpose: Save and retrieve archived versions of web pages using the Wayback Machine.
+
+Reputation: Developed by the trusted Internet Archive.
+
+Concerns: Requires access to browsing activity and pages to function properly. Transparent privacy settings.
+
+Verdict: Safe and Useful for research and OSINT work.
+
+Decision: Kept
+
+ Security Insights from Research
+ How Malicious Extensions Can Harm Users:
+Track browsing data
+
+Steal passwords or credentials
+
+Inject ads or redirect websites
+
+Log keystrokes or monitor form inputs
+
+Delete or modify browsing data
+
+⚠️ Permissions That Raise Suspicion:
+Access to all_urls
+
+Ability to read/modify clipboard
+
+Run in incognito/private mode
+
+Control proxy settings
+
+Modify web requests

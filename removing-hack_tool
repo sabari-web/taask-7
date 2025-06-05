@@ -1,0 +1,19 @@
+ Removing the Hack-Tools Extension
+Opened Firefox.
+
+Typed about:addons in the address bar and pressed Enter.
+
+In the Extensions tab, located the extension named Hack-Tools.
+
+Clicked on the three-dot menu (⋯) next to Hack-Tools.
+
+Selected "Remove" from the dropdown options.
+
+Confirmed the removal when prompted.
+
+✅ Reason for Removal:
+Not actively used in regular browsing.
+
+Requests access to private windows and restricted sites, which poses potential privacy risks.
+
+Better to keep the browser clean with only necessary extensions to minimize attack surface.
